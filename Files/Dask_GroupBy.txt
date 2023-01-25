@@ -1,0 +1,1 @@
+ddcs.groupby(["department", "state"]).agg({'state': 'count', 'bonus': ['max', 'sum'], 'salary':'mean'}).compute()

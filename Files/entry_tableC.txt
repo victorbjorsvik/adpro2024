@@ -1,0 +1,3 @@
+place,category,flies,threat_level
+farm,pet,True,menace
+woods,wild,False,dangerous

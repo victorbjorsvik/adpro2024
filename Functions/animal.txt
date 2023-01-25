@@ -1,0 +1,50 @@
+class Animal:
+    """
+    Defines an animal by its name and habilities.
+    
+    Attributes
+    ----------
+    name: str
+        Name of the animal
+    runs: bool
+        Boolean to check if the animal can run
+    fly: bool
+        Boolean to check if the animal can run
+               
+    Methods
+    --------
+    whoami()
+        Prints information about the animal
+    """
+    def __init__(self, name, runs, flies):
+        self.name = name
+        self.runs = runs
+        self.flies = flies
+        
+    def whoami(self):
+        """
+        Prints information about the animal
+        
+        Parameters
+        -----------
+        self: class
+            The Animal class itself
+            
+        Returns
+        --------
+        Nothing. Prints output to the screen.S     
+        """
+        my_name = f"I am called {self.name}."
+        
+        if self.runs:
+            running = "I can run."
+        else:
+            running = "I can't run."
+            
+        if self.flies:
+            flying = "I can fly."
+        else:
+            flying = "I can't fly."
+            
+        final_analysis = my_name + " " + running + " " + flying
+        print(final_analysis)

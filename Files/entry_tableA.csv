@@ -1,0 +1,5 @@
+name,speed,flies,place
+Duck,6,True,pond
+Goose,5,True,farm
+Dog,4,False,farm
+Wolf,5,False,woods
