@@ -3,7 +3,7 @@
 
 ## Scenario
 
-Your company is participating in a two-day hackathon promoted to study the agricultural output of several countries. They send your group, the best team of Data Scientists in the company's roster. By undertaking this task, your company expects to contribute to the green transition by having a more savvy taskforce.
+Your company is participating in a two-day hackathon promoted to study the agricultural output of several countries. They send your group, the best team of Data Scientists in the company's roster. By undertaking this task, your company expects to contribute to the green transition by having a more savvy taskforce. You decide to create a python class for the challenge.
 
 ## Goal
 
@@ -18,6 +18,10 @@ Go over the set. Analyze all the data [here](https://github.com/owid/owid-datase
 </div>
 
 Use whatever python tools you find apropriate. We recommend seaborn for plotting.
+
+## Structure of the project
+
+Keep the .py files in a separate directory. The only files in the main directory of the project should be the **Showcase Notebook** and the several configuration files (.yml, .gitignore, and others). Everything else should have their own directories.
 
 ### Day 1, Phase 1
 
