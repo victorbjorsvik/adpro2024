@@ -123,3 +123,7 @@ Large_Files/*
 # Dask worker space
 dask-worker-space/
 
+
+# Project specific
+./tf/*
+./training_checkpoints/*
