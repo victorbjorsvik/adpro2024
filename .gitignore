@@ -125,5 +125,14 @@ dask-worker-space/
 
 
 # Project specific
-./tf/*
-./training_checkpoints/*
+tf/*
+training_checkpoints/*
+Notebooks/cache/
+Notebooks/exports/
+Notebooks/old04.1-pip.ipynb
+Notebooks/text_generation.ipynb
+Notebooks/xclip
+checkpoint
+training_checkpoints/
+
+
