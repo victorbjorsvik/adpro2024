@@ -125,7 +125,7 @@ dask-worker-space/
 
 
 # Project specific
-tf/*
+#tf/*
 training_checkpoints/*
 Notebooks/cache/
 Notebooks/exports/
