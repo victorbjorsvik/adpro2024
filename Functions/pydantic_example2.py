@@ -36,5 +36,5 @@ class Person(BaseModel):
         print(f"My name is {self.name} and I am {self.age} years old. I study {self.course}.")
 
 if __name__ == "__main__":
-    person = Person(name="Alex", email="alex@gmail.com", age=21)
+    person = Person(name='Alex', email="alex@gmail.com", age=21)
     person.whoami()
