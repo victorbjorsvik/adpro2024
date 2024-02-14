@@ -1,5 +1,13 @@
+"""
+This module contains the function my_function
+"""
+
 import numpy as np
 
-def My_Function(correctionvariable):
-    getTheVar=correctionvariable
-    return 2.0*getTheVar
+
+def my_function(correctionvariable):
+    """
+    Returns twice the value of original value
+    """
+    get_the_var = correctionvariable
+    return np.multiply(get_the_var, 2)
